@@ -1,0 +1,15 @@
+{
+  "name": "mongodbgeo",
+  "version": "1.0.0",
+  "description": "MongoDB geojson project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "datamaker": "^1.0.0",
+    "mongodb": "^6.8.0"
+  }
+}

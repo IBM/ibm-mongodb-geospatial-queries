@@ -1,0 +1,6 @@
+.terraform*
+*.cert
+terraform.tfvars
+terraform.tfstate*
+*.txt
+node_modules

@@ -1,0 +1,14 @@
+{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ {{longitude LON}} , {{latitude LON}} ]
+    },
+    "properties": {
+      "driver_name": "{{ name }}",
+      "taxi_id": "{{ uuid }}",
+      "vehicle_type": "{{oneof sedan van sevenseater minibus }}",
+      "phone_number": "{{ tel }}",
+      "timestamp": "{{date_iso now}}"
+    }
+  }
